@@ -13,5 +13,24 @@ Backup Database: To create a backup of a database, run the application and selec
 
 Drop Database: To drop a database, run the application and select the option to drop a database. Provide the database name when prompted.
 
+# Deploying Microsoft SQL Server Express on Microsoft Windows Devices
+
+Go to My Oracle Support, logon and click the Patches & Updates tab, and then search for the CAL package for your version of Microsoft SQL Server Express: Download the CAL package (the patch ID is shown in parenthesis) for your version of Microsoft SQL Server Express:
+
+For SQL Server Express 2016, search for and download patch number 35069532.
+
+For SQL Server Express 2014, search for and download patch number 34362472.
+
+Once the SQL Server Express CAL package file is downloaded, perform the following steps:
+
+Using CAL, install the SQL Server Express Database package on the workstations.
+
+Install the Service Host Download CAL Package.
+
+Install the Service Host.
+
+Deploy the CAL packages as described in CAL Package Deployment and CAL on Workstations.
+
+See Configuring CAL Packages for more information about uploading Custom CAL packages to your system.
 
 
