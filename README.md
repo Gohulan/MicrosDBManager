@@ -7,11 +7,17 @@ Backup Databases: Create backups of Micros Simphony client databases with a time
 Drop Databases: Drop Micros Simphony client databases if required for troubleshooting or migration purposes.
 
 # Usage
-Run the Application: Execute the generated executable file (MicrosDBManager.exe) from the command line or terminal.
-
-Backup Database: To create a backup of a database, run the application and select the option to backup a database. Select the database name when prompted.
-
-Drop Database: To drop a database, run the application and select the option to drop a database. Provide the database name when prompted.
+>> Download and Extract the application to client workstation
+>> Run this application as an Administrator in Simphony POS Client (19.6 or later).
+>> It will check if the Simphony client is running or not.
+>> If it's running, it will ask to close or kill the servicehost.
+>> Once killed, it will prompt to enter the username and password, which are the default MySQL username and password. If you do not remember, please reset it in Simphony >> Property parameters >> Admin user and password.
+>> Once logged in successfully, it will show the available databases. We are only going to deal with Simphony CheckandPosting (in CAPS) or Datastore DB in each client.
+>> Before dropping, please make sure all checks have been closed and posted, as you are unable to revert it back once it's dropped.
+>> Select the database you need to drop.
+>> Please only select either CheckPosting or Datastore; do not drop other databases since those are system databases and it will cause issues in the system.
+>> Once you select the drop option, it will automatically backup the databases to the 'C:/Backup' folder with the current date and time stamp, and then drop them.
+>> Once dropped successfully, exit the application and run the servicehost again. It will automatically start and recreate the database.
 
 # Download MicrosDBManager 
 
