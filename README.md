@@ -13,6 +13,8 @@ Backup Database: To create a backup of a database, run the application and selec
 
 Drop Database: To drop a database, run the application and select the option to drop a database. Provide the database name when prompted.
 
+# Download MicrosDBManager Here - https://github.com/Gohulan/MicrosDBManager/blob/main/MicrosDBManager.exe
+
 # Deploying Microsoft SQL Server Express on Microsoft Windows Devices
 
 Go to My Oracle Support, logon and click the Patches & Updates tab, and then search for the CAL package for your version of Microsoft SQL Server Express: Download the CAL package (the patch ID is shown in parenthesis) for your version of Microsoft SQL Server Express:
