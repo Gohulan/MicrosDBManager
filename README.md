@@ -13,7 +13,9 @@ Backup Database: To create a backup of a database, run the application and selec
 
 Drop Database: To drop a database, run the application and select the option to drop a database. Provide the database name when prompted.
 
-# Download MicrosDBManager Here - https://github.com/Gohulan/MicrosDBManager/blob/main/MicrosDBManager.exe
+# Download MicrosDBManager 
+
+Download Link - https://github.com/Gohulan/MicrosDBManager/raw/main/MicrosDBManager.zip
 
 # Deploying Microsoft SQL Server Express on Microsoft Windows Devices
 
